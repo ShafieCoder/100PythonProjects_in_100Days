@@ -1,5 +1,5 @@
 
-PEMDAS
+PEMDASLR
 
 Paranthesis
 
