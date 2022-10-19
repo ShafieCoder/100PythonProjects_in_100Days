@@ -6,12 +6,15 @@ concepts in python programming gradually.
 ## Contents
 Day 1:
 
--band_name_generator
+- band_name_generator
 
 Day 2:
 - BMI calculator
 - Tip Calculator
 
 Day 3:
+- Conditional BMI Calculator
+- Leap Year
+- Order Pizza
 
 
