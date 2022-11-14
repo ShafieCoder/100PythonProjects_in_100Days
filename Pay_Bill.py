@@ -14,5 +14,8 @@ names = names_string.split(", ")
 number_of_people = len(names)
 random_choice = random.randint(0,number_of_people -1)
 payer = names[random_choice]
+
+# we can replace all of these last three lines with function choice()
+# person_who_will_pay = random.choice(names)
 print(payer + " is going to buy the meal today!")
 # Sara, Sina, Soheil, Saba, Sohrab
