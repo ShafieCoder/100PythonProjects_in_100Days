@@ -19,6 +19,7 @@ Day 3:
 
 Day 4:
 - Who pays bill
-- 
+- Treasure map
+- Rock Paper Scissor game
 
 
