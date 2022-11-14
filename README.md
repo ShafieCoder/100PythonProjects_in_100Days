@@ -17,4 +17,8 @@ Day 3:
 - Leap Year
 - Order Pizza
 
+Day 4:
+- Who pays bill
+- 
+
 
