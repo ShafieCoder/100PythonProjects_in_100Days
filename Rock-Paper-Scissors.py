@@ -25,30 +25,21 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
+
 # rock (0) wins against scissors (2)
 # scissors (2) win against paper (1)
 # paper(1) win against rock(0)
 import random
+game_images = [rock, paper, scissors]
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 computer_choice = random.randint(0,2)
-if player_choice == 0:
-  print(f"player choice:\n {rock}")
-elif player_choice == 1:
-  print(f"player choice:\n {paper}")
-elif player_choice == 2:
-  print(f"player choice:\n {scissors}")
-
-if computer_choice == 0:
-  print(f" computer choice:\n {rock}")
-elif computer_choice == 1:
-  print(f"player choice:\n {paper}")
-
-elif computer_choice == 2:
-  print(f"player choice:\n {scissors}")
+print(f"User choice:\n {game_images[player_choice]}\n")
+print(f"computer choice:\n {game_images[computer_choice]}\n")
 
 
-if player_choice == 0 and computer_choice == 2:
+if player_choice >= 3 or player_choice < 0:
+    print("you typed the wrong number!")
+elif player_choice == 0 and computer_choice == 2:
   print("Congratulation! You Won!")
 elif player_choice == 2 and computer_choice == 1:
   print("Congratulation! You Won!")
