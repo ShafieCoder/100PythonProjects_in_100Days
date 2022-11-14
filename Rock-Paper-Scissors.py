@@ -33,12 +33,16 @@ import random
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 computer_choice = random.randint(0,2)
 game_images = [rock, paper, scissors]
-print(game_images[player_choice])
-print(f"Computer choice:\n {game_images[computer_choice]}")
+
 
 if player_choice >= 3 or player_choice <0:
-  print("You typed a wrong number!!")
-elif player_choice == 0 and computer_choice == 2:
+  print("You typed a wrong number, you lost!")
+else:
+    print(game_images[player_choice])
+    print(f"Computer choice:\n {game_images[computer_choice]}")
+    
+    
+if player_choice == 0 and computer_choice == 2:
   print("You Won!")
 elif computer_choice == 0 and player_choice == 2:
   print("You lost.")
